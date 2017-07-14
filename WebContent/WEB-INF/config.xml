@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.ogr/dtd/spring-beans.dtd">
+<beans>
+	<!-- 依赖注入 -->
+	<bean id="drivers" class="com.cy.commons.Drivers"></bean>
+	<bean id="login" class="com.cy.commons.Login"></bean>
+	<bean id="Logout" class="com.cy.commons.Logout"></bean>
+	
+	<bean id="datareport" class="com.cy.service.DataReport"></bean>
+	<bean id="productmanage" class="com.cy.service.ProductManage"></bean>
+	<bean id="purchasemange" class="com.cy.service.PurchaseManage"></bean>
+	<bean id="systemmanage" class="com.cy.service.SystemManage"></bean>
+</beans>
